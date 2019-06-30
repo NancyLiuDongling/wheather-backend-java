@@ -6,6 +6,11 @@ import java.util.Map;
 
 public interface WeatherDataService {
 
-    JSONObject weatherData(String city, String citycode, String cityid, String ip, String location);
+    String weatherData(String city);
 
 }
+/*public interface WeatherDataService {
+
+    JSONObject weatherData(String city, String citycode, String cityid, String ip, String location);
+
+}*/
